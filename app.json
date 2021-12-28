@@ -1,0 +1,45 @@
+{
+  "usingComponents": {
+    "van-icon": "@vant/weapp/icon/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-rate": "@vant/weapp/rate/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index"
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/information/information",
+    "pages/center/center"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home01.png",
+        "selectedIconPath": "images/home02.png"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "text": "疫情信息",
+        "iconPath": "images/shuju01.png",
+        "selectedIconPath": "images/shuju02.png"
+      },
+      {
+        "pagePath": "pages/information/information",
+        "text": "个人中心",
+        "iconPath": "images/gerenzhongxin1.png",
+        "selectedIconPath": "images/gerenzhongxin2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
