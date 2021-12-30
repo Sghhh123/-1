@@ -21,7 +21,10 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
+<<<<<<< HEAD
     "lazyloadPlaceholderEnable": false,
+=======
+>>>>>>> dae70d52fa688105eb109b81c2e938f27d1f6a5c
     "useMultiFrameRuntime": true,
     "useApiHook": true,
     "useApiHostProcess": true,
@@ -32,13 +35,21 @@
     },
     "enableEngineNative": false,
     "useIsolateContext": false,
+<<<<<<< HEAD
+=======
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+>>>>>>> dae70d52fa688105eb109b81c2e938f27d1f6a5c
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true,
+<<<<<<< HEAD
     "disableUseStrict": false,
     "showES6CompileOption": false,
     "useCompilerPlugins": false,
+=======
+>>>>>>> dae70d52fa688105eb109b81c2e938f27d1f6a5c
     "minifyWXML": true
   },
   "compileType": "miniprogram",
