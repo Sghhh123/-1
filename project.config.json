@@ -1,61 +1,44 @@
 {
+  "cloudfunctionRoot": "./cloudfunction/",
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "description": "项目配置文件",
   "packOptions": {
     "ignore": []
   },
   "setting": {
+    "bundle": false,
+    "userConfirmedBundleSwitch": false,
     "urlCheck": true,
+    "scopeDataCheck": false,
+    "coverView": true,
     "es6": true,
-    "enhance": false,
     "postcss": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
     "preloadBackgroundData": false,
     "minified": true,
-    "newFeature": false,
-    "coverView": true,
-    "nodeModules": false,
     "autoAudits": false,
-    "showShadowRootInWxmlPanel": true,
-    "scopeDataCheck": false,
+    "newFeature": false,
     "uglifyFileName": false,
-    "checkInvalidKey": true,
-    "checkSiteMap": true,
     "uploadWithSourceMap": true,
-    "compileHotReLoad": false,
-<<<<<<< HEAD
-    "lazyloadPlaceholderEnable": false,
-=======
->>>>>>> dae70d52fa688105eb109b81c2e938f27d1f6a5c
+    "useIsolateContext": false,
+    "nodeModules": false,
+    "enhance": true,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
     "useApiHostProcess": true,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
-    },
-    "enableEngineNative": false,
-    "useIsolateContext": false,
-<<<<<<< HEAD
-=======
-    "useCompilerModule": true,
-    "userConfirmedUseCompilerModuleSwitch": false,
->>>>>>> dae70d52fa688105eb109b81c2e938f27d1f6a5c
-    "userConfirmedBundleSwitch": false,
+    "showShadowRootInWxmlPanel": true,
     "packNpmManually": false,
+    "enableEngineNative": false,
     "packNpmRelationList": [],
     "minifyWXSS": true,
-<<<<<<< HEAD
-    "disableUseStrict": false,
     "showES6CompileOption": false,
-    "useCompilerPlugins": false,
-=======
->>>>>>> dae70d52fa688105eb109b81c2e938f27d1f6a5c
     "minifyWXML": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.21.1",
+  "libVersion": "2.21.2",
   "appid": "wx1722c8928bf3a421",
-  "projectname": "VantTest",
+  "projectname": "miniprogram-1",
   "debugOptions": {
     "hidedInDevtools": []
   },
