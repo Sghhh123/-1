@@ -1,13 +1,4 @@
-<!--index.wxml-->
-<view class="container">
-  <van-button type="default">默认按钮</van-button>
-  <van-rate v-model="value" />
-  <van-icon name="chat" dot />
-  <van-cell-group>
-    <van-field value="{{ value }}" placeholder="请输入用户名" border="{{ false }}" bind:change="onChange" />
-  </van-cell-group>
-  <van-tabbar-item icon="home-o">标签</van-tabbar-item>
-  <van-tabbar-item icon="search">标签</van-tabbar-item>
-  <van-tabbar-item icon="friends-o">标签</van-tabbar-item>
-  <van-tabbar-item icon="setting-o">标签</van-tabbar-item>
+<view>
+ 123
+  
 </view>

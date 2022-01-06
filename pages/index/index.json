@@ -1,5 +1,15 @@
 {
   "usingComponents": {
-
+    "van-uploader": "@vant/weapp/uploader/index",
+    "van-calendar": "@vant/weapp/calendar/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-picker": "@vant/weapp/picker/index",
+    "van-slider": "@vant/weapp/slider/index",
+    "van-switch": "@vant/weapp/switch/index",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-dropdown-menu": "@vant/weapp/dropdown-menu/index",
+    "van-dropdown-item": "@vant/weapp/dropdown-item/index",
+    "van-circle": "@vant/weapp/circle/index",
+    "van-steps": "@vant/weapp/steps/index"
   }
 }
